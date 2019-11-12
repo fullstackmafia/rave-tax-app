@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tax Application</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    <div class="parent">
+    <div id="wrapper" class="wrapper">
+        <section class="card-api">
+            <h4>Tax Payment App</h4>
+            <h5>Pay via credit/debit card here:</h5>
+            <form id="card-form" method="post">
+                <div class="cardno">
+                        <label for="cardno">Card Number: </label>
+                        <input type="text" name="cardno" id="cardno">
+                </div>
+    
+                <div class="cvv">
+                    <label for="cvv">CVV: </label>
+                    <input type="text" name="cvv" id="cvv">
+                </div>
+                
+                <div class="expiry">
+                    <label for="expiry">Expiry Date: </label>
+                    <input type="text" name="expdate" id="expdate">
+                </div>
+
+                <div class="pin">
+                    <label for="pin">PIN: </label>
+                    <input type="text" name="pin" id="pin">
+                </div>
+
+                <button class="pay" id="card-pay" type="submit">Pay Here</button>
+
+                
+            </form>
+        </section>
+        <section class="tokencharge">
+            <h4>Pay with Token here:</h4>
+            <form id="token-form" method="post">
+                <div class="token">
+                    <label for="token">Card Token: </label>
+                    <input type="text" name="token" id="token">
+                </div>
+                
+                <button class="pay" id="token-pay" type="submit">Pay Here</button>
+            </form>
+        </section>
+    </div>
+    </div>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>

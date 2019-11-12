@@ -1,0 +1,115 @@
+input {
+    border-radius: 5px;
+    width: 50%;
+}
+
+.wrapper {
+    display: block;
+    justify-content:center; 
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 500px;
+    padding: 20px;
+    background-color: #75a3a3;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    width: 30%;
+    align-self: center;
+
+}
+
+.error {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    background: #a5391c;
+    color: #fafafa;
+    padding: 15px;
+    border-radius: 6px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+.success {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+    background: #138052;
+    color: #fafafa;
+    padding: 15px;
+    width: auto;
+    border-radius: 6px;
+    max-width: 100%;
+    margin-left: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+button.pay {
+    padding: 10px;
+    border: 1px solid #1d255b;
+    background: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+button.pay:hover{
+    background: #1d255b;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.cardno {
+    display: flex;
+    justify-content:space-between; 
+    margin: 10px
+}
+
+.cvv {
+    display: flex;
+    justify-content:space-between; 
+    margin: 10px
+}
+
+.expiry {
+    display: flex;
+    justify-content:space-between; 
+    margin: 10px
+}
+
+.pin {
+    display: flex;
+    justify-content:space-between; 
+    margin: 10px
+}
+
+ .token {
+    display: flex;
+    justify-content:space-between; 
+    margin: 10px
+ }
+
+ section {
+    justify-content:center;
+     margin: 50px;
+ }
+
+ .parent {
+     align-self: center;
+ }
+
+ .card_api {
+    justify-content:center;
+
+ }
+
+ .tokencharge {
+    justify-content:center;
+ }
