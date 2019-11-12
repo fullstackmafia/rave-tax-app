@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to rave-tax-app 👋</h1>
+<h1 align="center">Tokenized demo with Rave</h1>
 <p>
   <a href="https://developer.flutterwave.com/docs/getting-started" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
